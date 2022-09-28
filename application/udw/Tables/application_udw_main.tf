@@ -15,8 +15,8 @@ module "gcp_bigquery_dataset_module" {
     env_label = var.env_label
     env=var.env
  udw_bella_gw= var.udw_bella_gw
- udw_bella_gw= var.udw_bella_gw
- udw_bella_gr= var.udw_bella_gr
+ udw_bella_gw= var.udw_bella_gr
+ udw_bella_gr= var.udw_bella_uw
  udw_bella_ur= var.udw_bella_ur
  udw_bella_sqe= var.udw_bella_sqe
  }
