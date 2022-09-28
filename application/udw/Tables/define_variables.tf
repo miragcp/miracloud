@@ -8,8 +8,8 @@ variable "zone" {
     default = "us-central1-a"
 }
 
-#variable "region" {
- default = "us-central1-a"
+variable "region" {
+ default = "us-central1"
 }
 
 #variable for network
@@ -26,13 +26,13 @@ variable "compute_network_tag" {
 
 ##################################
 #BigQuery WRITER/READER groups and users per dataset
-variable "udw_cloud_build_audit_gw" {default = "" }
-variable "udw_cloud_build_audit_uw" {default = "" }
-variable "udw_cloud_build_audit_gr" {default = "" }
-variable "udw_cloud_build_audit_uw" {default = "" }
 
 
-variable "udw_bella_gw" {}
-variable "udw_bella_uw" {}
-variable "udw_bella_gr" {}
-variable "udw_bella_uw" {}
+
+variable "udw_bella_gw"{}
+variable "udw_bella_uw"{}
+variable "udw_bella_gr"{}
+variable "udw_bella_ur"{}
+
+#gcs buckets
+variable "miragcp_bucket_name" { }
