@@ -14,3 +14,4 @@ resource "google_bigquery_dataset" "udw_bella" {
     environment = var.env_label
   }
 }
+

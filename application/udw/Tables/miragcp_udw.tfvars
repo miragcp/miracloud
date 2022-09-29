@@ -3,7 +3,4 @@ ENV="ENV"
 env_label="development"
 project_name="solar-theory-361919"
 host_project_name=""
-network_name = ""
-auth_name = ""
-subnet = ""
-authorized_composer_cidr = ""
+
