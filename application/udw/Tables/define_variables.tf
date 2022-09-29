@@ -32,4 +32,4 @@ variable "udw_bella_gr"{}
 variable "udw_bella_ur"{}
 
 #gcs buckets
-variable "mirage_bucket_name" { }
+variable "miragcp_bucket_name" { }
