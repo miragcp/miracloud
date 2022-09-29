@@ -8,7 +8,7 @@
 resource "google_bigquery_dataset" "udw_bella" {
   project     = var.project_name
   dataset_id  = "UDW_BELLA"
-  location    = var.location
+  location    = "US"
   labels = {
     dataset-name = "udw_bella"
     environment = var.env_label
