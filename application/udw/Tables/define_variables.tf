@@ -26,9 +26,6 @@ variable "compute_network_tag" {
 
 ##################################
 #BigQuery WRITER/READER groups and users per dataset
-
-
-
 variable "udw_bella_gw"{}
 variable "udw_bella_uw"{}
 variable "udw_bella_gr"{}
