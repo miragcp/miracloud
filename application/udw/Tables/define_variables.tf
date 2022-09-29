@@ -12,16 +12,5 @@ variable "region" {
  default = "us-central1"
 }
 
-#variable for network
-variable "host_project_name" {}
-variable "network_name" {}
-variable "subnet" {}
-
-
-#compute Engine
-variable "compute_network_tag" {
-    default = [""]
-}
-
 
 ##################################
