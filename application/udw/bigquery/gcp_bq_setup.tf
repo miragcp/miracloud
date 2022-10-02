@@ -34,6 +34,7 @@ resource "google_bigquery_table" "tbl_notebook" {
   schema = file()
 }
 
+
 resource "google_bigquery_table" "tbl_pen" {
   dataset_id = var.pen
   table_id = var.tbl_pen
