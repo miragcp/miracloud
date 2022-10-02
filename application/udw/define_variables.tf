@@ -30,3 +30,4 @@ variable "stationary_DS_location" {
   ##default = "us-central1"
 }
 
+##

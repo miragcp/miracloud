@@ -44,3 +44,5 @@ resource "google_bigquery_table" "tbl_pen" {
   }
   schema = file()
 }
+
+##
